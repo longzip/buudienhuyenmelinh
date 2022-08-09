@@ -48,7 +48,7 @@
           >
             <div class="px-6">
               <TraCuuTheBHYT />
-              <HoThiTham />
+              <!-- <HoThiTham /> -->
             </div>
           </div>
         </div>
