@@ -22,12 +22,12 @@
     <div class="container mx-auto px-4">
       <div class="flex flex-wrap">
         <div class="w-full lg:w-6/12 px-4">
-          <h4 class="text-3xl font-semibold">Cảm ơn bạn đã ghé thăm!</h4>
+          <h4 class="text-3xl font-semibold">Bưu điện huyện Mê Linh</h4>
           <h5 class="text-lg mt-0 mb-2 text-gray-700">
-            Yêu mọi người quá. Có câu hỏi gì cần cứ biểu ạ, 😍 Hồ Thị Thắm 😍 sẽ trả lời hết nha!
+            Địa chỉ: Khu trung tâm hành chính huyện Mê Linh, xã Đại Thịnh, huyện Mê Linh, tp Hà Nội
           </h5>
           <div class="zalo-follow-only-button" data-oaid="907870636305349915"></div>
-          <div class="mt-6 mb-12">
+          <!-- <div class="mt-6 mb-12">
             <a target="_blank" href="https://youtube.com/channel/UC8skczWH9dMoyzU0LPYQ4yA?sub_confirmation=1"
               class="bg-white text-red-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
             >
@@ -48,14 +48,14 @@
             >
               <i class="flex fab fa-tiktok"></i>
             </a>
-          </div>
+          </div> -->
         </div>
         <div class="w-full lg:w-6/12 px-4">
           <div class="flex flex-wrap items-top mb-2">
             <div class="w-full lg:w-4/12 px-4 ml-auto mb-6">
               <span
                 class="block uppercase text-gray-600 text-sm font-semibold mb-2"
-                >Về bưu điện xã Tự Lập</span
+                >Về bưu điện huyện Mê Linh</span
               >
               <ul class="list-unstyled">
                 <li>
@@ -65,27 +65,21 @@
                     >Cửa hàng</a
                   >
                 </li>
-                <li>
-                  <a
-                    class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="https://blog.buudienxatulap.ga/"
-                    >Blog</a
-                  >
-                </li>
-                <li>
+                
+                <!-- <li>
                   <a
                     class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
                     href="https://www.vaytienbuudien.ga/"
                     >Vay hưu trí</a
                   >
-                </li>
-                <li>
+                </li> -->
+                <!-- <li>
                   <a
                     class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
                     href="/mua-bao-hiem-y-te-o-buu-dien/"
                     >Mua bảo hiểm y tế ở Bưu điện</a
                   >
-                </li>
+                </li> -->
                 <li>
                   <a
                     class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
@@ -137,21 +131,6 @@
                     >Bưu điện Hà Nội</a
                   >
                 </li>
-                
-                <li>
-                  <a
-                    class="mt-3 text-red-700 hover:text-red-900 font-semibold block pb-2 text-2xl"
-                    href="tel:0978333963"
-                    >☎️0978333963</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="text-red-700 hover:text-red-900 font-semibold block pb-2 text-2xl"
-                    href="/ho-thi-tham/"
-                    >👉Hồ Thị Thắm</a
-                  >
-                </li>
               </ul>
             </div>
           </div>
@@ -163,10 +142,9 @@
       >
         <div class="w-full md:w-4/12 px-4 mx-auto text-center">
           <div class="text-sm text-gray-600 font-semibold py-1">
-            Copyright © {{date}} Bưu điện văn hóa xã Tự Lập. Thiết kế website hiện đại cùng
+            Copyright © {{date}} Bưu điện huyện Mê Linh. Thiết kế website hiện đại cùng
             <a
               href="https://lovanlong.ga/"
-              class="text-yellow-700 hover:text-yellow-900"
               >Lỗ Văn Long</a
             >.
           </div>

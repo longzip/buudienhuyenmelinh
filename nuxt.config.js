@@ -8,14 +8,14 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Hồ Thị Thắm | Bưu điện văn hóa xã Tự Lập',
+    title: 'Bưu điện huyện Mê Linh',
     htmlAttrs: {
       lang: 'vi'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Hồ Thị Thắm làm ở Bưu điện xã Tự Lập từ tháng 8/2021 với các dịch vụ Thu Bảo hiểm y tế, bảo hiểm xã Hội tự nguyện.' },
+      { hid: 'description', name: 'description', content: 'Địa chỉ: Khu trung tâm hành chính huyện Mê Linh, Đại Thịnh, Mê Linh, Hà Nội' },
       { hid: 'zalo-platform-site-verification', name: 'zalo-platform-site-verification', content: 'JjQ5CPpWKsX8_lWqlz1N36F3nYEFiXnyDpO' },
       { name: 'format-detection', content: 'telephone=no' }
     ],

@@ -27,7 +27,7 @@
                     HƯỞNG LƯƠNG HƯU
                   </p>
                   <div class="mt-6">
-                    <p>Đóng bảo hiểm xã hội tự nguyện và bảo hiểm y tế ở bưu điện liên hệ chị Thắm 0978333963.</p>
+                    <p>Đóng bảo hiểm xã hội tự nguyện và bảo hiểm y tế ở bưu điện.</p>
                   </div>
                 </div>
               </div>

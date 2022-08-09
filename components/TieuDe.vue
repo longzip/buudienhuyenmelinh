@@ -4,7 +4,7 @@
         style="min-height: 75vh;"
       >
         <div
-          class="absolute top-0 w-full h-full bg-center bg-cover" :style="`background-image: url('${bg ? bg : '/images/chi-tra-luong-huu.png'}');`"
+          class="absolute top-0 w-full h-full bg-center bg-cover" :style="`background-image: url('${bg ? bg : '/images/buu-dien-huyen-me-linh.jpg'}');`"
         > 
           <span
             id="blackOverlay"
@@ -16,10 +16,10 @@
             <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
               <div class="pr-12">
                 <h1 class="text-white font-semibold text-5xl">
-                  {{title ? title : 'Bưu điện văn hóa xã Tự Lập'}}.
+                  {{title ? title : 'Bưu điện huyện Mê Linh'}}.
                 </h1>
                 <p class="mt-4 text-lg text-gray-300">
-                  {{desc ? desc :'Thời gian làm việc: Buổi sáng từ 8h00-11h00; Buổi chiều từ 14h00-17h00 các ngày trong tuần trừ Chủ Nhật và ngày nghỉ lễ'}}.
+                  {{desc ? desc :'Từ ngày 1/8/2022 người dân Hà Nội được hỗ trợ thêm tiền đóng BHXH tự nguyện.'}}
                 </p>
               </div>
             </div>

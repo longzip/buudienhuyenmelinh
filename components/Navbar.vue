@@ -11,7 +11,7 @@
         <a
           class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
           href="/"
-          >Hồ Thị Thắm - Bưu điện xã Tự Lập</a
+          >Bưu điện huyện Mê Linh</a
         ><button
           class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
           type="button"
@@ -28,7 +28,7 @@
           <li class="flex items-center">
             <a
               class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-              href="https://shop.thambuudien.ga/"
+              href="https://shop.buudienhuyenmelinh.vn/"
               target="_blank"
               ><i
                 class="lg:text-gray-300 text-gray-500 fa fa-shopping-cart text-lg leading-lg mr-2"
@@ -48,7 +48,7 @@
               ><span class="lg:hidden inline-block ml-2">Facebook</span></a
             >
           </li>
-          <li class="flex items-center">
+          <!-- <li class="flex items-center">
             <a
               class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
               href="https://www.instagram.com/thambuudien/"
@@ -75,7 +75,7 @@
             >
               <i class="fa fa-blog"></i> Blog
             </a>
-          </li>
+          </li> -->
         </ul>
       </div>
     </div>
