@@ -24,7 +24,7 @@
         <div class="w-full lg:w-6/12 px-4">
           <h4 class="text-3xl font-semibold">Bưu điện huyện Mê Linh</h4>
           <h5 class="text-lg mt-0 mb-2 text-gray-700">
-            Địa chỉ: Khu trung tâm hành chính huyện Mê Linh, xã Đại Thịnh, huyện Mê Linh, tp Hà Nội
+            Địa chỉ: Khu trung tâm hành chính huyện Xã Đại Thịnh, Huyện Mê Linh, Thành phố Hà Nội
           </h5>
           <div class="zalo-follow-only-button" data-oaid="907870636305349915"></div>
           <div class="mt-6 mb-12">

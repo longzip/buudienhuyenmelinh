@@ -6,7 +6,7 @@
         <div class="container mx-auto px-4">
           <div class="flex flex-wrap justify-center text-center mb-24">
             <div class="w-full lg:w-6/12 px-4">
-              <h2 class="text-4xl font-semibold">Các sản phẩm khác tại bưu điện văn hóa xã Tự Lập</h2>
+              <h2 class="text-4xl font-semibold">Các sản phẩm khác tại bưu điện Huyện Mê Linh</h2>
               <p class="text-lg leading-relaxed m-4 text-gray-600">
                 Bạn không cần phải vào Phúc Yên hoặc đến Thạch Đà chỉ cần ra bưu điện gần nhà là có đầy đủ các dịch vụ sau:
               </p>

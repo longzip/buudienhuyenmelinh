@@ -15,7 +15,7 @@
             <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
               <div class="pr-12">
                 <h1 class="text-white font-semibold text-5xl">
-                  Tra cứu thẻ BHYT hết hạn ở xã Tự Lập.
+                  Tra cứu thẻ BHYT hết hạn.
                 </h1>
               </div>
             </div>

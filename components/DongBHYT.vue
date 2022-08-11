@@ -35,7 +35,7 @@
                   </div>
                   <h6 class="text-xl font-semibold">Gia hạn bảo hiểm y tế ở bưu điện </h6>
                   <p class="mt-2 mb-4 text-gray-600">
-                    Giúp tạo điều kiện thuận lợi cho người dân trong việc gia hạn thẻ Bảo Hiểm Y Tế (BHYT) hộ gia đình đúng thời hạn, đảm bảo quyền lợi khám chữa bệnh và quyền lợi tham gia BHYT 5 năm liên tục. Hãy Chat ngay <a href="https://zalo.me/0978333963">tại đây</a> để được gia hạn trực tuyến.
+                    Giúp tạo điều kiện thuận lợi cho người dân trong việc gia hạn thẻ Bảo Hiểm Y Tế (BHYT) hộ gia đình đúng thời hạn, đảm bảo quyền lợi khám chữa bệnh và quyền lợi tham gia BHYT 5 năm liên tục. Hãy Chat ngay <a target="_blank" href="https://m.me/103440001315066">tại đây</a> để được gia hạn trực tuyến.
                   </p>
                 </div>
               </div>
@@ -83,7 +83,8 @@
                 Điểm bán hàng tiêu dùng thiết yếu, Bưu điện Văn hóa xã Tự Lập, người dân có thể tới trực tiếp để lựa chọn và mua hàng không bị giới hạn về số lượng. Nếu không muốn tới các điểm bán hàng, người dân hoàn toàn có thể gọi điện cho bưu tá, các bưu cục gần nhà nhất để yêu cầu cung cấp các loại hàng hóa mình cần. Sau khi nhận đơn, nhân viên Bưu điện sẽ chuyển phát miễn phí toàn bộ hàng hóa khách hàng yêu cầu đến tận nhà trong thời gian sớm nhất.
               </p>
               <a
-                href="tel:0978333963"
+              target="_blank"
+                href="https://m.me/103440001315066"
                 class="font-bold text-gray-800 mt-8"
                 >Đặt lịch hẹn với Giao dịch viên!</a
               >

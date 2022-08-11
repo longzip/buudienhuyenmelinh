@@ -32,7 +32,7 @@
                     <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button" @click="timKiem(searchText)">
                         Tra cứu
                     </button>
-                    <a class="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800" href="tel:0978333963">
+                    <a class="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800" target="_blank" href="https://m.me/103440001315066">
                         Bạn cần trợ giúp?
                     </a>
                     </div>
@@ -98,12 +98,6 @@
                                 </table>
                                 <div class="flex  items-center justify-between ">
                                     <div> Tổng cộng: {{ tongCong | soTien }}</div>
-                                    <p class="text-xs ">Thông tin chuyển khoản:<br>
-                                        Tài khoản: HO THI THAM<br>
-                                        Số tài khoản: 0711000234239<br>
-                                        Ngân hàng thụ hưởng: Vietcombank<br>
-                                        (Hoặc nộp tiền mặt trực tiếp tại Bưu điện xã Tự Lập cạnh trạm y tế xã).
-                                    </p>
                                 </div>
                             </div>
                             </div>

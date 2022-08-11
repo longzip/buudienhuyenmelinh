@@ -14,9 +14,9 @@
                       <path fill-rule="evenodd" d="M15.707 4.293a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-5-5a1 1 0 011.414-1.414L10 8.586l4.293-4.293a1 1 0 011.414 0zm0 6a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-5-5a1 1 0 111.414-1.414L10 14.586l4.293-4.293a1 1 0 011.414 0z" clip-rule="evenodd" />
                     </svg>
                   </div>
-                  <h6 class="text-xl font-semibold">Đại lý thu BHXH, BHYT</h6>
+                  <h6 class="text-xl font-semibold">Tiết kiệm bưu điện</h6>
                   <p class="mt-2 mb-4 text-gray-600">
-                    Gia hạn thẻ bảo hiểm y tế theo hộ gia đình với giảm trừ mức đóng ở Bưu điện xã Tự Lập liên hệ chị Hồ Thị Thắm.
+                    Các sản phẩm, dịch vụ Tiết kiệm Bưu điện hiện đang được cung cấp tại các PGDBĐ chủ yếu là: Tiền gửi Tiết kiệm có kỳ hạn; Tiết kiệm gửi góp; Dịch vụ cho vay tiêu dùng (đối với người hưởng lương hưu và CBCC, LLVT) và các dịch vụ Tài khoản/Thẻ thanh toán.
                   </p>
                 </div>
               </div>
@@ -33,9 +33,9 @@
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V8a2 2 0 00-2-2h-5m-4 0V5a2 2 0 114 0v1m-4 0a2 2 0 104 0m-5 8a2 2 0 100-4 2 2 0 000 4zm0 0c1.306 0 2.417.835 2.83 2M9 14a3.001 3.001 0 00-2.83 2M15 11h3m-3 4h2" />
 </svg>
                   </div>
-                  <h6 class="text-xl font-semibold">Mua bảo hiểm y tế ở bưu điện</h6>
+                  <h6 class="text-xl font-semibold">Phân phối hàng tiêu dùng nhanh</h6>
                   <p class="mt-2 mb-4 text-gray-600">
-                    Mua BHYT hộ gia đình sẽ được giảm dần mức đóng từ thành viên thứ hai trở đi. Cụ thể, theo quy định, người thứ nhất có một tháng đóng bằng 4,5% mức lương cơ sở. Kế tiếp, thành viên thứ hai, thứ ba, thứ tư đóng lần lượt bằng 70%, 60%, 50% mức đóng của người thứ nhất và người thứ năm trở đi đóng bằng 40% mức đóng của người thứ nhất. <a href="/mua-bao-hiem-y-te-o-buu-dien/">Xem thêm</a>
+                    Sản phẩm phân phối là các sản phẩm thuộc ngành hàng tiêu dùng nhanh như sản phẩm chăm sóc gia đình: bột giặt, nước sả vải, nước rửa chén, nước lau nhà …; sản phẩm chăm sóc thân thể: dầu gội, giầu xả, kem đánh răng …. <a href="https://shop.buudienhuyenmelinh.vn/">Cửa hàng</a>
                   </p>
                 </div>
               </div>
@@ -52,9 +52,9 @@
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
 </svg>
                   </div>
-                  <h6 class="text-xl font-semibold">Thanh toán tiền điện trực tiếp</h6>
+                  <h6 class="text-xl font-semibold">Chuyển phát nhanh EMS</h6>
                   <p class="mt-2 mb-4 text-gray-600">
-                    Địa điểm: <strong>Bưu điện văn hóa xã Tự Lập</strong>. Thời gian thu hàng tháng: Từ ngày 16 đến ngày 21 hàng tháng.
+                    Là dịch vụ chuyển phát nhanh thư, tài liệu, vật phẩm, hàng hóa từ người gửi đến người nhận giữa Việt Nam trong nước và các nước trên thế giới trong khuôn khổ Liên minh Bưu chính Thế giới (UPU) và Hiệp hội EMS theo chỉ tiêu thời gian được Công ty Cổ phần Chuyển Phát Nhanh Bưu điện công bố trước. Chi tiết xin tham khảo tại website: <a href="http://www.ems.com.vn">www.ems.com.vn</a>
                   </p>
                 </div>
               </div>
@@ -70,12 +70,12 @@
 </svg>
               </div>
               <h3 class="text-3xl mb-2 font-semibold leading-normal">
-                Điểm Bưu điện Văn hóa xã đã dịch vụ
+                Bưu điện Huyện Mê Linh
               </h3>
               <p
                 class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700"
               >
-                Chi trả lương hưu và trợ cấp bảo hiểm xã hội (BHXH), thu bảo hiểm y tế (BHYT) cho người dân xã Tự Lập.
+                Chi trả lương hưu và trợ cấp bảo hiểm xã hội (BHXH), thu bảo hiểm y tế (BHYT) cho người dân.
               </p>
               <p
                 class="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700"
@@ -115,7 +115,14 @@
                   </h4>
                   <p class="text-md font-light mt-2 text-white">
                     Bén duyên với nghề từ năm 2021, những ngày đầu còn đầy khó khăn, bỡ ngỡ trong việc giới thiệu các sản phẩm của Bưu điện đến thị trường xã, làm sao để khách hàng tin yêu, để Bưu điện – Văn hóa xã (BĐ-VHX) là điểm đến quen thuộc của người dân trên địa bàn? Với đam mê bán hàng, chị Hồ Thị Thắm đã luôn trăn trở, sáng tạo, không quản ngại khó khăn để tìm ra câu trả lời, trở thành 1 trong những tấm gương bán hàng tiêu biểu của Bưu điện huyện Mê Linh.
+                    <a
+                    target="_blank"
+                href="https://www.buudienxatulap.ga/ho-thi-tham/"
+                class="font-bold text-gray-800 mt-8"
+                >Tìm hiểu thêm</a
+              >
                   </p>
+
                 </blockquote>
               </div>
             </div>

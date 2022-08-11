@@ -118,7 +118,8 @@
                 </ul>
               </p>
               <a
-                href="tel:0978333963"
+              target="_blank"
+                href="https://m.me/103440001315066"
                 class="font-bold text-gray-800 mt-8"
                 >Có, tôi muốn tham gia!</a
               >

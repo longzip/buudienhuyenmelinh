@@ -5,15 +5,15 @@
             <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
 
                 <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
-                    Họ và tên hoặc mã số BHXH, BHYT:
+                    Mã số BHXH, BHYT:
                 </label>
                 <input id="grid-first-name" v-model="searchText" class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" type="text" placeholder="Tên" @keydown.enter="timKiem()">
-                <p class="text-red-500 text-xs italic mb-5">Tìm kiếm theo họ và tên hoặc nhập mã số thẻ BHYT rồi bấm nút Tra cứu.</p>
+                <p class="text-red-500 text-xs italic mb-5">Nhập mã số thẻ BHYT rồi bấm nút Tra cứu.</p>
                 <div class="flex items-center justify-between ">
                     <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button" @click="timKiem()">
                         Tra cứu
                     </button>
-                    <a class="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800" href="tel:0978333963">
+                    <a class="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800" target="_blank" href="https://m.me/103440001315066">
                         Bạn cần trợ giúp?
                     </a>
                     </div>
@@ -56,8 +56,14 @@
                     </p>
                 </div>
                 <div v-else>
-                    <p class="text-center text-yellow-500 text-2xl pt-16">
-                        Không cần nhớ mã số thẻ BHYT vẫn tra cứu được thời hạn sử dụng của thẻ? Chỉ cần nhập họ và tên của bạn hoặc mã số thẻ vào ô tìm kiếm Hồ Thị Thắm sẽ hiển thị kế quả chính xác cho bạn.
+                    <p class="text-center text-yellow-500 text-xl pt-8">
+                        💥 Nếu đã đóng bảo hiểm y tế (BHYT) 5 năm liên tục, bất kì ai cũng có cơ hội được hưởng mức thanh toán 100%. Vậy hiểu như thế nào cho đúng về chế độ BHYT 5 năm liên tục?
+                    </p>
+                    <p class="text-center text-yellow-500 text-xl pt-8">
+                       BHYT 5 năm liên tục là khi người tham gia BHYT có thời gian đóng 05 năm liên tiếp, trong đó được phép gián đoạn tối đa 03 tháng. 
+                    </p>
+                    <p class="text-center text-yellow-500 text-xl pt-8">
+                        🔰 Xem hướng dẫn chi tiết tại: <a target="_blank" href="https://blog.buudienxatulap.ga/posts/bhyt-5-nam-lien-tuc/">https://blog.buudienxatulap.ga/posts/bhyt-5-nam-lien-tuc/</a>
                     </p>
                 </div>
                 

@@ -21,6 +21,14 @@
                 <p class="mt-4 text-lg text-gray-300">
                   {{desc ? desc :'Từ ngày 1/8/2022 người dân Hà Nội được hỗ trợ thêm tiền đóng BHXH tự nguyện.'}}
                 </p>
+                <p v-if="!desc" class="mt-4 text-lg text-white">
+                  <a
+                  target="_blank"
+                href="https://blog.buudienxatulap.ga/posts/ha-noi-ho-tro-den-60-tien-dong-bao-hiem-xa-hoi-tu-nguyen/"
+                class="font-bold text-white mt-8"
+                >Tìm hiểu thêm</a
+              >
+                </p>
               </div>
             </div>
           </div>
