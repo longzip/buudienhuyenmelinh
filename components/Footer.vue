@@ -27,7 +27,7 @@
             Địa chỉ: Khu trung tâm hành chính huyện Mê Linh, xã Đại Thịnh, huyện Mê Linh, tp Hà Nội
           </h5>
           <div class="zalo-follow-only-button" data-oaid="907870636305349915"></div>
-          <!-- <div class="mt-6 mb-12">
+          <div class="mt-6 mb-12">
             <a target="_blank" href="https://youtube.com/channel/UC8skczWH9dMoyzU0LPYQ4yA?sub_confirmation=1"
               class="bg-white text-red-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
             >
@@ -48,7 +48,7 @@
             >
               <i class="flex fab fa-tiktok"></i>
             </a>
-          </div> -->
+          </div>
         </div>
         <div class="w-full lg:w-6/12 px-4">
           <div class="flex flex-wrap items-top mb-2">

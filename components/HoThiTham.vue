@@ -26,12 +26,12 @@
                 <div class="flex flex-wrap justify-center">
                   <div class="w-full lg:w-9/12 px-4">
                     <p class="mb-4 text-lg leading-relaxed text-gray-800">
-                      Xin chào, mình là <a class="font-normal text-yellow-500" target="_blank" href="https://blog.thambuudien.ga/"><span class="text-2xl">Hồ Thị Thắm</span> </a> làm cấp đổi thẻ BHYT hết hạn, thu BHXH tự nguyện ở BĐ xã Tự Lập. <span class="text-4xl text-yellow-500">Bấm vào Chat ngay ở dưới 👇👇👇 để mình hỗ trợ thêm cho bạn nhé!</span>
+                      Xin chào, mình là <a class="font-normal text-yellow-500" target="_blank" href="https://blog.buudienxatulap.ga/"><span class="text-2xl">Hồ Thị Thắm</span> </a> làm cấp đổi thẻ BHYT hết hạn, thu BHXH tự nguyện ở BĐ xã Tự Lập. <span class="text-4xl text-yellow-500">Bấm vào Chat ngay ở dưới 👇👇👇 để mình hỗ trợ thêm cho bạn nhé!</span>
                     </p>
                     <p class="mb-4 text-lg leading-relaxed text-gray-800">
                       Từ ngày 1.8, Tp.Hà Nội hỗ trợ thêm cho người tham gia BHXH tự nguyện trên địa bàn. Để đăng ký tham gia, bạn chỉ cần đến Đại lý thu bảo hiểm xã hội, bảo hiểm y tế <span class="text-2xl">Bưu điện xã Tự Lập gặp mình - Hồ Thị Thắm 0978333963</span> (thay anh Lập đã nghỉ). Link tham gia nhóm thu BHXH tự nguyện và cấp đổi thẻ BHYT hết hạn ở BĐ xã Tự Lập <a target="_blank" href="https://zalo.me/g/wwcmdi831">https://zalo.me/g/wwcmdi831</a>
                     </p>
-                    <a target="_blank" href="https://blog.thambuudien.ga/" class="font-normal text-yellow-500"
+                    <a target="_blank" href="https://blog.buudienxatulap.ga/" class="font-normal text-yellow-500"
                       >Tìm hiểu thêm</a
                     >
                   </div>
