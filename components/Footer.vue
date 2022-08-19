@@ -61,7 +61,7 @@
                 <li>
                   <a
                     class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="https://shop.buudienxatulap.ga/"
+                    href="https://shop.buudienhuyenmelinh.vn/"
                     >Cửa hàng</a
                   >
                 </li>
