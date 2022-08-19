@@ -50,10 +50,11 @@
       <section class="text-gray-600 body-font">
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+      
       <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
-        <img class="mx-auto mb-4 w-56 h-56 rounded-full" src="http://www.vnpost.vn/ImageCaching.ashx?file=%2fPortals%2f0%2fDichVu%2f02+-+Buu+dien+Viet+Nam+-+Product.png&size=3&ver=5" alt="Bonnie Avatar">
+        <img class="mx-auto mb-4 w-56 h-56 rounded-full" src="/images/buu-chinh-chuyen-phat.jpg" alt="Bưu chính chuyển phát">
         <div class="flex-grow">
-          <h2 class="text-red-400 text-lg title-font font-medium mb-3">Bưu chính chuyển phát</h2>
+          <h2 class="text-red-400 uppercase text-xl title-font font-medium mb-3">Bưu chính chuyển phát</h2>
           <a class="mt-3 text-red-400 inline-flex items-center"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>Bưu chính chuyển phát Trong nước
@@ -65,34 +66,43 @@
         </div>
       </div>
       <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
-        <img class="mx-auto mb-4 w-56 h-56 rounded-full" src="http://www.vnpost.vn/ImageCaching.ashx?file=%2fPortals%2f0%2fDichVu%2fA022_C056_0106MU.0000339-edit.png&size=3&ver=5" alt="Bonnie Avatar">
+        <img class="mx-auto mb-4 w-56 h-56 rounded-full" src="/images/tai-chinh-buu-chinh.jpg" alt="Tài chính bưu chính">
         <div class="flex-grow">
-          <h2 class="text-red-400 text-lg title-font font-medium mb-3">Bưu chính chuyển phát</h2>
-          <a class="mt-3 text-red-400 inline-flex items-center"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>Bưu chính chuyển phát Trong nước
-          </a>
-          <a class="mt-3 text-red-400 inline-flex items-center"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>Bưu chính chuyển phát Quốc tế
-          </a>
-        </div>
-      </div>
-      <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
-        <img class="mx-auto mb-4 w-56 h-56 rounded-full" src="http://www.vnpost.vn/ImageCaching.ashx?file=%2fPortals%2f0%2fDichVu%2f02+-+Buu+dien+Viet+Nam+(5)-+Product.png&size=3&ver=6" alt="Bonnie Avatar">
-        <div class="flex-grow">
-          <h2 class="text-red-400 text-lg title-font font-medium mb-3">Bưu chính chuyển phát</h2>
-          <a class="mt-3 text-red-400 inline-flex items-center"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>Bưu chính chuyển phát Trong nước
-          </a>
-          <a class="mt-3 text-red-400 inline-flex items-center"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>Bưu chính chuyển phát Quốc tế
-          </a>
-        </div>
-      </div>
+          <h2 class="text-red-400 uppercase text-xl title-font font-medium mb-3">Tài chính bưu chính</h2>
+           
+ 
 
+          <a class="mt-3 text-red-400 inline-flex items-center"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>Bảo hiểm phi nhân thọ PTI
+          </a>
+          <a class="mt-3 text-red-400 inline-flex items-center"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>Đại lý Bảo hiểm nhân thọ (Dai-ichi)
+          </a>
+        </div>
+      </div>
+      <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+        <img class="mx-auto mb-4 w-56 h-56 rounded-full" src="/images/phan-phoi-truyen-thong.jpg" alt="Bonnie Avatar">
+        <div class="flex-grow">
+          <h2 class="text-red-400 uppercase text-xl title-font font-medium mb-3">Phân phối truyền thông</h2>
+           
+ 
+
+          <a class="mt-3 text-red-400 inline-flex items-center"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>Sàn thương mại điện tử POSTMART
+          </a>
+          <a class="mt-3 text-red-400 inline-flex items-center"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>Truyền thông, quảng cáo
+          </a>
+          <a class="mt-3 text-red-400 inline-flex items-center"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>Phân phối xuất bản ấn phẩm
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -134,7 +144,7 @@
 <!-- CTA -->
 <section class="bg-white dark:bg-gray-900">
     <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
-        <img class="w-full dark:hidden" src="http://www.vnpost.vn/Portals/0/anh%20tin%20tuc/2021/Thang%202/Nam%20Dinh_Khai%20truong%20Postmart.jpg?ver=2021-02-08-114505-803" alt="dashboard image">
+        <img class="w-full dark:hidden" src="/images/khai-truong-postmart.jpg" alt="dashboard image">
         <!-- <img class="w-full hidden dark:block" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg" alt="dashboard image"> -->
         <div class="mt-4 md:mt-0">
             <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Mua sắm trực tuyến</h2>

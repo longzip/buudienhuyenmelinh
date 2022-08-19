@@ -4,11 +4,11 @@
 <nav class="bg-white border-gray-200 dark:bg-gray-900">
     <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl px-4 md:px-6 py-2.5">
         <a href="/" class="flex items-center">
-            <img src="/images/logo.png" class="mr-3 h-36 sm:h-36" alt="Bưu điện huyện Mê Linh Logo">
+            <img src="/images/logo.png" class="h-24 sm:h-24" alt="Bưu điện huyện Mê Linh Logo">
             <div class="flex flex-col">
 <span class="self-left uppercase text-sm font-semibold whitespace-nowrap text-yellow-400 dark:text-white">Tổng công ty</span>
             <span class="self-left uppercase font-semibold whitespace-nowrap text-blue-900 dark:text-white">Bưu điện việt nam</span>
-            <span class="self-left uppercase text-xl font-semibold whitespace-nowrap text-blue-900 dark:text-white">Bưu điện huyện Mê Linh</span>
+            <span class="self-left tracking-tighter uppercase text-xl font-semibold whitespace-nowrap text-blue-900 dark:text-white">Bưu điện huyện Mê Linh</span>
 
             </div>
         </a>
