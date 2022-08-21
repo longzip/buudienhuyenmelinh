@@ -23,6 +23,9 @@
         <div class="flex items-center">
             <ul class="flex flex-row mt-0 mr-6 space-x-8 text-sm font-medium">
                 <li>
+                    <a href="https://shop.buudienhuyenmelinh.vn/" class="text-white dark:text-white hover:underline" aria-current="page">Cửa hàng</a>
+                </li>
+                <li>
                     <a href="/tra-cuu-hang-buu-dien/" class="text-white dark:text-white hover:underline" aria-current="page">Định vị bưu gửi</a>
                 </li>
                 <li>
