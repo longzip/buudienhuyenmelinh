@@ -7,7 +7,7 @@
                 <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
                     Mã số BHXH, BHYT:
                 </label>
-                <input id="grid-first-name" v-model="searchText" class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" type="text" placeholder="Tên" @keydown.enter="timKiem()">
+                <input id="grid-first-name" v-model="searchText" class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" type="text" placeholder="Mã số 01235299xx" @keydown.enter="timKiem()">
                 <p class="text-red-500 text-xs italic mb-5">Nhập mã số thẻ BHYT rồi bấm nút Tra cứu.</p>
                 <div class="flex items-center justify-between ">
                     <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button" @click="timKiem()">
@@ -63,7 +63,7 @@
                        BHYT 5 năm liên tục là khi người tham gia BHYT có thời gian đóng 05 năm liên tiếp, trong đó được phép gián đoạn tối đa 03 tháng. 
                     </p>
                     <p class="text-center text-yellow-500 text-xl pt-8">
-                        🔰 Xem hướng dẫn chi tiết tại: <a target="_blank" href="https://blog.buudienxatulap.ga/posts/bhyt-5-nam-lien-tuc/">https://blog.buudienxatulap.ga/posts/bhyt-5-nam-lien-tuc/</a>
+                        🔰 Xem hướng dẫn chi tiết <a class="text-blue-500 hover:text-blue-800" target="_blank" href="https://blog.buudienxatulap.ga/posts/bhyt-5-nam-lien-tuc/">tại đây</a>.
                     </p>
                 </div>
                 
