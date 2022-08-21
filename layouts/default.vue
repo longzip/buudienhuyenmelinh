@@ -23,16 +23,13 @@
         <div class="flex items-center">
             <ul class="flex flex-row mt-0 mr-6 space-x-8 text-sm font-medium">
                 <li>
-                    <a href="#" class="text-white dark:text-white hover:underline" aria-current="page">Trang chủ</a>
+                    <a href="/tra-cuu-hang-buu-dien/" class="text-white dark:text-white hover:underline" aria-current="page">Định vị bưu gửi</a>
                 </li>
                 <li>
-                    <a href="#" class="text-white dark:text-white hover:underline">Giới thiệu</a>
+                    <a href="/tra-thoi-han-bao-hiem-y-te/" class="text-white dark:text-white hover:underline">Tra cứu BHYT</a>
                 </li>
                 <li>
-                    <a href="#" class="text-white dark:text-white hover:underline">Dịch vụ</a>
-                </li>
-                <li>
-                    <a href="#" class="text-white dark:text-white hover:underline">Liên hệ</a>
+                    <a href="/tinh-muc-dong-va-luong-huu-du-tinh/" class="text-white dark:text-white hover:underline">Tính mức đóng BHXH</a>
                 </li>
             </ul>
         </div>

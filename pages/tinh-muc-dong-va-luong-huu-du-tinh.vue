@@ -1,161 +1,72 @@
 <template>
-    <main class="profile-page">
-      <section class="relative block pt-16 pb-32 " style="min-height: 75vh;">
-        <div
-          class="absolute top-0 w-full h-full bg-center bg-cover"
-          style='background-image: url("/images/chi-tra-luong-huu.png");'
-        >
-          <span
-            id="blackOverlay"
-            class="w-full h-full absolute opacity-75 bg-black"
-          ></span>
-        </div>
-        <div class="container relative mx-auto">
-          <div class="items-center flex flex-wrap">
-            <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-              <div class="pr-12">
-                <h1 class="text-white font-semibold text-5xl">
-                  Tính mức đóng và lương hưu dự tính.
-                </h1>
-              </div>
+    <main>
+      <section class="bg-white dark:bg-gray-900">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+            <div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
+                <h1 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Tính mức đóng và lương hưu dự tính</h1>
+                <p class="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">Lựa chọn mức đóng và hình thức đóng</p>
+                <p class="mb-2">
+                      <select v-model="mucThuNhap">
+                        <option disabled value="">Lựa chọn mức thu nhập 👇</option>
+                        <option v-for="option in options" :key="option" :value="option">
+                          {{ (option*0.22-33000).toLocaleString() }}/{{ option.toLocaleString() }} VNĐ
+                        </option>
+                      </select>
+                    </p>
+                    <p><span>Tổng số tiền đóng BHXH 20 năm:</span> {{tongDong20.toLocaleString()}} VNĐ</p>
+                    <p><strong>Lương hưu dự kiến:</strong> <strong class="text-2xl">{{luongHuu20Nam[0].luong.toLocaleString()}} VNĐ/tháng</strong></p>
             </div>
-          </div>
-        </div>
-        <div
-          class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
-          style="height: 70px;"
-        >
-          <svg
-            class="absolute bottom-0 overflow-hidden"
-            xmlns="http://www.w3.org/2000/svg"
-            preserveAspectRatio="none"
-            version="1.1"
-            viewBox="0 0 2560 100"
-            x="0"
-            y="0"
-          >
-            <polygon
-              class="text-gray-300 fill-current"
-              points="2560 0 2560 100 0 100"
-            ></polygon>
-          </svg>
-        </div>
-      </section>
-      <section class="relative py-16 bg-gray-300">
-        <div class="container mx-auto px-4">
-          <div
-            class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-lg -mt-64"
-          >
-            <div class="px-6">
-              <section class="pt-20 pb-48">
-        <div class="container mx-auto px-4">
-          <div class="flex flex-wrap justify-center text-center mb-24">
-            <div class="w-full lg:w-6/12 px-4">
-              <h2 class="text-4xl font-semibold">Lựa chọn mức đóng và hình thức đóng</h2>
-              <p class="text-lg leading-relaxed m-4 text-gray-600">
-                Khi tham gia BHXH tự nguyện được NSNN hỗ trợ hộ nghèo bằng 30%, cận nghèo là 25%, đối tượng khác là 10% (tính theo mức chuẩn hộ nghèo nông thôn).
-              </p>
-              <p class="text-lg leading-relaxed m-4 text-gray-600">
-                Từ ngày 01/08/2022 đến hết ngày 31/12/2025, người tham gia BHXH tự nguyện trên địa bàn Hà Nội được hỗ trợ theo tỉ lệ % trên mức đóng hàng hàng: hộ nghèo bằng 30%, cận nghèo là 25%, đối tượng khác là 10% (tính theo mức chuẩn hộ nghèo nông thôn).
-              </p>
-              <p class="mb-2">
-                <select v-model="mucThuNhap">
-                  <option disabled value="">Lựa chọn mức thu nhập 👇</option>
-                  <option v-for="option in options" :key="option" :value="option">
-                    {{ (option*0.22-33000).toLocaleString() }}/{{ option.toLocaleString() }} VNĐ
-                  </option>
-                </select>
-              </p>
-              <p><span>Tổng số tiền đóng BHXH 20 năm:</span> {{tongDong20.toLocaleString()}} VNĐ</p>
-              <p><strong>Lương hưu dự kiến:</strong> <strong class="text-2xl">{{luongHuu20Nam[0].luong.toLocaleString()}} VNĐ/tháng</strong></p>
-              <!-- <p><span>Số tiền gốc:</span> {{tongSoTienGoc.toLocaleString()}} VNĐ</p>
-              <p><span>Tổng số tiền cuối kỳ (lãi suất {{Math.round(this.laiSuatNganHang*100)}}%):</span> {{tongSoTienCuoiKy.toLocaleString()}} VNĐ</p>
-              <p><span>Số tiền lãi:</span> {{(tongSoTienCuoiKy-tongSoTienGoc).toLocaleString()}} VNĐ</p>
-              <p><span>Lãi hàng tháng năm sau 20 năm:</span> {{Math.round(tongSoTienCuoiKy*0.03/12).toLocaleString()}} VNĐ</p> -->
-            </div>
-          </div>
-          <div class="flex flex-wrap">
-            <div v-for="item in bangLuaChons" :key="item.soThang" class="w-full md:w-6/12 lg:w-4/12 lg:mb-0 mb-12 px-4">
-              <div class="px-4 pb-6">
-                <div class="w-72 mx-auto bg-white border-t-4 rounded border-indigo-500 dark:bg-gray-800 shadow text-center p-4">
-                    <div class="overflow-hidden">
-                        <div class="text-2xl font-medium mb-8 text-gray-800 dark:text-white">
-                            Đóng {{item.soThang}} tháng
-                        </div>
-                        <div class="leading-loose text-sm font-light text-gray-700 dark:text-gray-50 mb-10">
-                            <div class="font-bold">
-                                Mức thu nhập: {{item.mucThuNhap.toLocaleString()}}
-                            </div>
-                            <div>
-                                Mức đóng theo quy định: {{item.mucDong.toLocaleString()}}
-                            </div>
-                            <div>
-                                NSNN hỗ trợ: {{item.mucHoTro.toLocaleString()}}
-                            </div>
-                            <div class="text-red-500 text-xl">
-                                Hà Nội hỗ trợ: {{item.haNoiHoTro.toLocaleString()}}
-                            </div>
-                            <div>
-                                Lương hưu dự kiến sau 20 năm đóng BHXH
-                            </div>
-                            <div class="text-gray-500 dark:text-gray-200">
-                                <span>
-                                    {{item.luongDuKien.nu.toLocaleString()}} VNĐ / Nữ
-                                </span>
-                            </div>
-                            <div class="mb-2 text-gray-500 dark:text-gray-200">
-                                <span>
-                                    {{item.luongDuKien.nam.toLocaleString()}} VNĐ / Nam
-                                </span>
-                            </div>
-                        </div>
-                        <div class="font-bold mb-2 text-gray-500 dark:text-gray-200">
-                            <span>
-                                {{item.tien.toLocaleString()}} VNĐ
-                            </span>
-                        </div>
-                        
-                        <div class="px-4 mt-8 mb-2">
-                            <a target="_blank" href="https://m.me/103440001315066" class="py-2 px-4  bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
-                                Bắt đầu
-                            </a>
-                        </div>
+            <div class="space-y-8 lg:grid lg:grid-cols-4 sm:gap-6 xl:gap-10 lg:space-y-0">
+                <!-- Pricing Card -->
+                <div v-for="item in bangLuaChons" :key="item.soThang" class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+                    <h3 class="mb-4 text-2xl font-semibold">Đóng {{item.soThang}} tháng</h3>
+                    
+                    <div class="font-bold">
+                                      Mức thu nhập: {{item.mucThuNhap.toLocaleString()}}
+                                  </div>
+                                  <div>
+                                      Mức đóng theo quy định: {{item.mucDong.toLocaleString()}}
+                                  </div>
+                                  <div>
+                                      NSNN hỗ trợ: {{item.mucHoTro.toLocaleString()}}
+                                  </div>
+                                  <div class="text-red-500 text-xl">
+                                      Hà Nội hỗ trợ: {{item.haNoiHoTro.toLocaleString()}}
+                                  </div>
+                                  <div>
+                                      Lương hưu dự kiến sau 20 năm đóng BHXH
+                                  </div>
+                                  <div class="text-gray-500 dark:text-gray-200">
+                                      <span>
+                                          {{item.luongDuKien.nu.toLocaleString()}} VNĐ / Nữ
+                                      </span>
+                                  </div>
+                                  <div class="mb-2 text-gray-500 dark:text-gray-200">
+                                      <span>
+                                          {{item.luongDuKien.nam.toLocaleString()}} VNĐ / Nam
+                                      </span>
+                                  </div>
+                    <div class="flex justify-center items-baseline my-8">
+                        <span class="mr-2 text-3xl font-extrabold">{{item.tien.toLocaleString()}}đ</span>
+                        <del class="text-gray-500 dark:text-gray-400">{{(item.tien+item.mucHoTro+item.haNoiHoTro).toLocaleString()}}đ</del>
                     </div>
+                    <a  target="_blank" href="https://m.me/103440001315066" class="text-white bg-indigo-600 hover:bg-indigo-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Bắt đầu</a>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
       </section>
-      <section class="pt-20 pb-48">
-        <div class="container mx-auto px-4">
-          <div class="flex flex-wrap justify-center text-center mb-24">
-            <div class="w-full lg:w-6/12 px-4">
-              <h2 class="text-4xl font-semibold">Hưởng lương hưu sau 20 năm</h2>
-              <p class="text-lg leading-relaxed m-4 text-gray-600">
-              Bảng dự tính  
-              </p>
-              <p>
-                <select v-model="mucThuNhap">
-                  <option disabled value="">Lựa chọn mức thu nhập</option>
-                  <option v-for="option in options" :key="option" :value="option">
-                    {{ option.toLocaleString() }} VNĐ
-                  </option>
-                </select> 
-                <span>Tỉ lệ hưởng</span>
-                <input v-model="tiLeHuong" placeholder="tỉ lệ hưởng" />
-              </p>
+      <section class="bg-white dark:bg-gray-900">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+            <div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Lương hưu dự kiến</h2>
+                <p class="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">Tổng lương hưu dự kiến nhận được trong thời gian 20 năm kể từ khi nghỉ hưu</p>
+                
             </div>
-          </div>
-          <div class="flex flex-wrap">
-            <div v-for="item in luongHuu20Nam" :key="item.namThu" class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-              <div class="px-6">
-                <div :class="[tongDong20<tongNamThu(item.namThu) ? 'border-indigo-500':'border-gray-500', 'w-72 mx-auto bg-white border-t-4 rounded dark:bg-gray-800 shadow text-center p-4']">
-                    <div class="overflow-hidden">
-                        <div class="text-2xl font-medium mb-8 text-gray-800 dark:text-white">
-                            Năm {{item.namThu}}
-                        </div>
-                        <div class="leading-loose text-sm font-light text-gray-700 dark:text-gray-50 mb-2">
+            <div class="space-y-8 lg:grid lg:grid-cols-4 sm:gap-6 xl:gap-10 lg:space-y-0">
+                <!-- Pricing Card -->
+                <div v-for="item in luongHuu20Nam" :key="item.namThu" :class="[tongDong20<tongNamThu(item.namThu) ? 'border-indigo-500':'border-gray-100', 'flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white']">
+                    <h3 class="mb-4 text-2xl font-semibold">Năm {{item.namThu}}</h3>
+                    <div class="leading-loose text-sm font-light text-gray-700 dark:text-gray-50 mb-2">
                             <div class="font-bold">
                                 Lương tháng: {{item.luong.toLocaleString()}} VNĐ
                             </div>
@@ -176,18 +87,11 @@
                                 {{tongNamThu(item.namThu).toLocaleString()}} VNĐ
                             </button>
                         </div>
-                    </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
       </section>
-              <!-- <HoThiTham /> -->
-            </div>
-          </div>
-        </div>
-      </section>
+
     </main>
 </template>
 
@@ -216,13 +120,13 @@ export default {
     },
     thangHaNoiHoTro(){
       const date = new Date();
-      return (2025-date.getFullYear())*12+12-date.getMonth()-1;
+      return (2025-date.getFullYear())*12+12-date.getMonth();
     },
     tongDong20(){
       return (this.mucThuNhap*0.22-this.mucHoTro)*120+this.mucThuNhap*0.22*120-this.mucHoTro*(this.thangHaNoiHoTro)
     },
     bangLuaChons(){
-      return [1,3,6,12,60].map(soThang => {
+      return [1,3,6,12].map(soThang => {
         const thangConDuocHaNoiHoTro = soThang < this.thangHaNoiHoTro ? soThang : this.thangHaNoiHoTro
         // console.log(thangConDuocHaNoiHoTro);
         const haNoiHoTro = this.mucHoTro*thangConDuocHaNoiHoTro;
