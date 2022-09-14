@@ -4,6 +4,6 @@
       <HeroIntro />
       <Team />
       <CTA />
-      <BuuCucs />
+      
     </main>
 </template>

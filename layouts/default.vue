@@ -41,6 +41,7 @@
 
     <!-- <Navbar /> -->
     <Nuxt />
+    <BuuCucs />
     
     <Footer />
 
