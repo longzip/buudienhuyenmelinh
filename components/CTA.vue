@@ -2,15 +2,24 @@
     <!-- CTA -->
   <section class="bg-white dark:bg-gray-900">
       <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
-          <img class="w-full dark:hidden" src="/images/khai-truong-postmart.jpg" alt="dashboard image">
-          <!-- <img class="w-full hidden dark:block" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/cta/cta-dashboard-mockup-dark.svg" alt="dashboard image"> -->
           <div class="mt-4 md:mt-0">
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Thư viện video</h2>
+            <iframe class="w-full dark:hidden" width="560" height="315" src="https://www.youtube.com/embed/Dw0eMBYdlyY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="mt-4 md:mt-0 xl:mt-16">
               <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Mua sắm trực tuyến</h2>
               <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">Hiện tại chúng tôi có những gian hàng mua sắm online với đầy đủ những sản phẩm tiện ích, đa dạng. Hy vọng sẽ đem đến cho quý khách hàng những trải nghiệm mua sắm mới mẻ nhất. hãy đến với hệ thống mua sắm trực tuyến của chúng tôi để tìm cho mình những sản phẩm thực nhất</p>
-              <a href="https://shop.buudienhuyenmelinh.vn/"  target = "_blank" class="inline-flex items-center text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900">
+              
+              <div class="md:grid grid-cols-1">
+                <a href="https://postmart.vn/">
+                    <img class="mx-auto mb-4 w-auto h-56" src="/images/postmart_vn.jpg" alt="">
+                </a>
+                <!-- <BuuCucs class="overflow-y-auto h-56 w-auto" /> -->
+              </div>
+              <!-- <a href="https://shop.buudienhuyenmelinh.vn/"  target = "_blank" class="inline-flex items-center text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900">
                   Vào cửa hàng
                   <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-              </a>
+              </a> -->
           </div>
       </div>
   </section>

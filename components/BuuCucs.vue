@@ -5,7 +5,7 @@
           <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Danh sách bưu cục</h2>
           <p class="font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">Mạng lưới bưu cục trực thuộc Bưu Điện Huyện Mê Linh.</p>
       </div> 
-      <div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
+      <div class="overflow-y-auto h-96 grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
           <div v-for="{ma,ten,diaChi, website} in buuCucs" :key="ma" class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
               <div class="p-5">
                   <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
