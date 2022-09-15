@@ -11,7 +11,7 @@
               <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">Hiện tại chúng tôi có những gian hàng mua sắm online với đầy đủ những sản phẩm tiện ích, đa dạng. Hy vọng sẽ đem đến cho quý khách hàng những trải nghiệm mua sắm mới mẻ nhất. hãy đến với hệ thống mua sắm trực tuyến của chúng tôi để tìm cho mình những sản phẩm thực nhất</p>
               
               <div class="md:grid grid-cols-1">
-                <a href="https://postmart.vn/">
+                <a href="https://shop.buudienhuyenmelinh.vn/">
                     <img class="mx-auto mb-4 w-auto h-56" src="/images/postmart_vn.jpg" alt="">
                 </a>
                 <!-- <BuuCucs class="overflow-y-auto h-56 w-auto" /> -->

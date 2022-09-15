@@ -25,41 +25,52 @@ export default {
     data () {
         return {
             buuCucs: [
-                {ma:142000,
-                ten:"Bưu cục cấp 2 Mê Linh",
-                diaChi:"Thôn Đại Bái, Xã Đại Thịnh, Huyện Mê Linh (ÐT: 02438165777)",
-                website: ""
+
+                {
+                    ma:142240,
+                    ten:"TTDV MÊ LINH",
+                    diaChi:"Khu trung tâm hành chính huyện, Xã Đại Thịnh, Huyện Mê Linh (ÐT: 02438183999)",
+                    website: "/"
                 },
-                {ma:142219,
-                ten:"Bưu cục cấp 3 KCN Quang Minh",
-                diaChi:"Sô´Lô 46, Lô 1 đến 46, Khu công nghiệp Quang Minh, Thị Trấn Quang Minh, Huyện Mê Linh (ÐT: 0435202555)",
-                website: ""
+
+
+                {
+                    ma:142000,
+                    ten:"Bưu cục Mê Linh",
+                    diaChi:"Thôn Đại Bái, Xã Đại Thịnh, Huyện Mê Linh (ÐT: 02438165777)",
+                    website: ""
                 },
-                {ma:142250,
-                ten:"Bưu cục cấp 3 Bưu cục Thương mại điện tử Tân Đức",
-                diaChi:"Lô 1 đến 46, Khu công nghiệp Quang Minh, Thị Trấn Quang Minh, Huyện Mê Linh (ÐT: 02439655935)",
-                website: ""
+
+                {
+                    ma:142134,
+                    ten:"Bưu cục Đại Thịnh",
+                    diaChi:"Thôn Đại Bái, Xã Đại Thịnh, Huyện Mê Linh (ÐT: )",
+                    website: ""
                 },
-                {ma:142240,
-                ten:"Bưu cục cấp 3 TTDV Mê Linh",
-                diaChi:"Sô´49, Thôn Nội Đồng, Xã Đại Thịnh, Huyện Mê Linh (ÐT: 02438183999)",
-                website: ""
+                {
+                    ma:142160,
+                    ten:"Bưu cục Tiền Phong",
+                    diaChi:"Thôn Yên Nhân, Xã Tiền Phong, Huyện Mê Linh (ÐT: 02432127123)",
+                    website: ""
                 },
-                {ma:142134,
-                ten:"Bưu cục cấp 3 Đại Thịnh",
-                diaChi:"Thôn Đại Bái, Xã Đại Thịnh, Huyện Mê Linh (ÐT: )",
-                website: ""
+
+
+                {
+                    ma:142219,
+                    ten:"Bưu cục KCN Quang Minh",
+                    diaChi:"Sô´Lô 46, Lô 1 đến 46, Khu công nghiệp Quang Minh, Thị Trấn Quang Minh, Huyện Mê Linh (ÐT: 0435202555)",
+                    website: ""
                 },
-                {ma:142080,
-                ten:"Bưu cục cấp 3 Thạch Đà",
-                diaChi:"Thôn 1, Xã Thạch Đà, Huyện Mê Linh (ÐT: 02438164301)",
-                website: ""
+
+         
+                
+                {
+                    ma:142080,
+                    ten:"Bưu cục Thạch Đà",
+                    diaChi:"Thôn 1, Xã Thạch Đà, Huyện Mê Linh (ÐT: 02438164301)",
+                    website: ""
                 },
-                {ma:142160,
-                ten:"Bưu cục cấp 3 Tiền Phong",
-                diaChi:"Thôn Yên Nhân, Xã Tiền Phong, Huyện Mê Linh (ÐT: 02432127123)",
-                website: ""
-                },
+                
                 {ma:142180,
                 ten:"Điểm BĐVHX Kim Hoa",
                 diaChi:"Thôn Phù Trì, Xã Kim Hoa, Huyện Mê Linh (ÐT: 0989588466)",
@@ -95,10 +106,12 @@ export default {
                 diaChi:"Thôn Tam Báo, Xã Tam Đồng , Huyện Mê Linh (ÐT: 02438164721)",
                 website: ""
                 },
-                {ma:142200,
-                ten:"Điểm BĐVHX Quang Minh",
-                diaChi:"Thôn Gia Thượng, Thị Trấn Quang Minh, Huyện Mê Linh (ÐT: 0975595457)",
-                website: ""
+
+                {
+                    ma:142200,
+                    ten:"Điểm BĐVHX Quang Minh",
+                    diaChi:"Thôn Gia Thượng, Thị Trấn Quang Minh, Huyện Mê Linh (ÐT: 0975595457)",
+                    website: ""
                 },
                 {ma:142060,
                 ten:"Điểm BĐVHX Chu Phan",
@@ -130,52 +143,6 @@ export default {
                 diaChi:"Thôn Tráng Việt, Xã Tráng Việt , Huyện Mê Linh (ÐT: 0948819996)",
                 website: ""
                 },
-                {ma:100950,
-                ten:"Bưu cục Khai thác Liên tỉnh VCKV - Hà Nội LT",
-                diaChi:"Sô´5, Thôn Trung Xuyên, Phường Mỹ Đình 2, Huyện Mê Linh (ÐT: 02437683639)",
-                website: ""
-                },
-                {ma:100957,
-                ten:"Bưu cục Khai thác Liên tỉnh KT EMS Hà Nội Liên tỉnh 2",
-                diaChi:"Sô´Lô 26 KCN, Khu Quang Minh, Thị Trấn Quang Minh, Huyện Mê Linh (ÐT: )",
-                website: ""
-                },
-                {ma:142229,
-                ten:"Hòm thư Công cộng Thị trấn Chi Đông",
-                diaChi:"Phố Thị trấn Chi Đông, Thị Trấn Chi Đông, Huyện Mê Linh (ÐT: )",
-                website: ""
-                },
-                {ma:142244,
-                ten:"Bưu cục văn phòng Văn phòng TT VCKV miền Bắc",
-                diaChi:"Lô 1 đến 46, Khu công nghiệp Quang Minh, Thị Trấn Quang Minh, Huyện Mê Linh (ÐT: 0915525868)",
-                website: ""
-                },
-                {ma:142243,
-                ten:"Bưu cục văn phòng Đội xe Đường trục VCKV miền Bắc",
-                diaChi:"Lô 1 đến 46, Khu công nghiệp Quang Minh, Thị Trấn Quang Minh, Huyện Mê Linh (ÐT: 0915525868)",
-                website: ""
-                },
-                {ma:142241,
-                ten:"Bưu cục văn phòng Đội xe 1 VCKV miền Bắc",
-                diaChi:"Lô 1 đến 46, Khu công nghiệp Quang Minh, Thị Trấn Quang Minh, Huyện Mê Linh (ÐT: 0915525868)",
-                website: ""
-                },
-                {ma:142242,
-                ten:"Bưu cục văn phòng Đội xe 2 VCKV miền Bắc",
-                diaChi:"Lô 1 đến 46, Khu công nghiệp Quang Minh, Thị Trấn Quang Minh, Huyện Mê Linh (ÐT: 0915525868)",
-                website: ""
-                },
-                {ma:142255,
-                ten:"Bưu cục văn phòng Bưu cục văn phòng TMĐT6",
-                diaChi:"Sô´24, Khu Quang Minh, Thị Trấn Quang Minh, Huyện Mê Linh (ÐT: )",
-                website: ""
-                },
-                {ma:142230,
-                ten:"Bưu cục văn phòng BĐH Mê Linh",
-                diaChi:"Phố Thị trấn Chi Đông, Thị Trấn Chi Đông, Huyện Mê Linh (ÐT: )",
-                website: ""
-                },
-                
             ]
         }
     }
