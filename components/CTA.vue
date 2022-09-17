@@ -12,7 +12,7 @@
               
               <div class="md:grid grid-cols-1">
                 <a href="https://shop.buudienhuyenmelinh.vn/">
-                    <img class="mx-auto mb-4 w-auto h-56" src="/images/postmart_vn.jpg" alt="">
+                    <img class="mx-auto mb-4 w-auto h-56" src="/images/hang-tieu-dung-buu-dien-me-linh.jpg" alt="">
                 </a>
                 <!-- <BuuCucs class="overflow-y-auto h-56 w-auto" /> -->
               </div>
