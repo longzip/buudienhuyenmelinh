@@ -21,11 +21,18 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ],
+    script: [
+      {
+        src: "https://unpkg.com/flowbite@1.5.3/dist/flowbite.js",
+        body: true,
+      },
     ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '@/assets/css/tailwind.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -39,7 +46,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     // '@nuxtjs/eslint-module',
-    '@nuxtjs/tailwindcss',
+    '@nuxt/postcss8',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -54,6 +61,12 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     publicPath,
+    postcss: {
+      plugins: {
+        tailwindcss: {},
+        autoprefixer: {},
+      },
+    },
   },
   generate: {
     // dir: 'docs',

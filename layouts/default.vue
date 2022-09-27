@@ -58,6 +58,7 @@
   </div>
 </template>
 <script>
+// import 'flowbite';
 export default {
   
 }
