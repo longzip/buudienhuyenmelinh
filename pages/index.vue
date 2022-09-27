@@ -8,15 +8,15 @@
          <!-- Item 1 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <span class="absolute text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2  sm:text-3xl dark:text-gray-800">First Slide</span>
-            <img src="https://vietnampost.vn/images/72b011c2-975c-4e2d-a7c2-f7c5dca321de?fit=contain&quality=100" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 " alt="...">
+            <img src="https://vietnampost.vn/images/72b011c2-975c-4e2d-a7c2-f7c5dca321de" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 " alt="...">
         </div>
         <!-- Item 2 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="https://vietnampost.vn/images/b3dcc710-9c4f-4022-908c-0e18b356fa2e?fit=contain&quality=100" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 " alt="...">
+            <img src="https://vietnampost.vn/images/b3dcc710-9c4f-4022-908c-0e18b356fa2e" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 " alt="...">
         </div>
         <!-- Item 3 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="https://vietnampost.vn/images/35e8e66f-8120-42a7-b042-9869903668c1?fit=contain&quality=100" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 " alt="...">
+            <img src="https://vietnampost.vn/images/35e8e66f-8120-42a7-b042-9869903668c1" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 " alt="...">
         </div>
     </div>
     <!-- Slider indicators -->
