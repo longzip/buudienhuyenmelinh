@@ -7,16 +7,16 @@
     <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
          <!-- Item 1 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/images/buu-dien-huyen-me-linh-2.png" class="invisible md:visible absolute block w-full -translate-x-1/2 -translate-y-1/2 " alt="...">
-            <img src="/images/buu-dien-huyen-me-linh.png" class="visible md:invisible absolute block w-full -translate-x-1/2 -translate-y-1/2 " alt="...">
+            <nuxt-img format="webp" loading="lazy" src="/images/buu-dien-huyen-me-linh-2.png" class="invisible md:visible absolute block w-full -translate-x-1/2 -translate-y-1/2 " alt="Bưu điện huyện mê linh 1" />
+            <nuxt-img format="webp" loading="lazy" src="/images/buu-dien-huyen-me-linh.png" class="visible md:invisible absolute block w-full -translate-x-1/2 -translate-y-1/2 " alt="Bưu điện huyện mê linh 2" />
         </div>
         <!-- Item 2 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/images/2.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 " alt="...">
+            <nuxt-img format="webp" loading="lazy" src="/images/2.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 " alt="Bưu điện huyện mê linh 3" />
         </div>
         <!-- Item 3 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/images/3.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 " alt="...">
+            <nuxt-img format="webp" loading="lazy" src="/images/3.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 " alt="Bưu điện huyện mê linh 4" />
         </div>
     </div>
     <!-- Slider indicators -->
@@ -44,7 +44,7 @@
       <HeroIntro />
       <Team />
       <CTA />
-      
+      <!-- <nuxt-img format="webp" loading="lazy" src="/images/buu-dien-huyen-me-linh-2.png"  /> -->
     </main>
 </template>
 <script>

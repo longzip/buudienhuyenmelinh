@@ -12,7 +12,7 @@
               
               <div class="md:grid grid-cols-1">
                 <a target="_blank" href="https://shop.buudienhuyenmelinh.vn/">
-                    <img class="" src="/images/hang-tieu-dung-buu-dien-me-linh.jpg" alt="">
+                    <nuxt-img format="webp" loading="lazy"  src="/images/hang-tieu-dung-buu-dien-me-linh.jpg" alt="Hàng tiêu dùng bưu điện huyện mê linh" />
                 </a>
                 <!-- <BuuCucs class="overflow-y-auto h-56 w-auto" /> -->
               </div>

@@ -47,6 +47,7 @@ export default {
     // https://go.nuxtjs.dev/eslint
     // '@nuxtjs/eslint-module',
     '@nuxt/postcss8',
+    '@nuxt/image',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -74,4 +75,5 @@ export default {
   // server: {
   //   host: '0', // default: localhost
   // },
+  
 }
