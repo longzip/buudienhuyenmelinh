@@ -7,7 +7,7 @@
     <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
          <!-- Item 1 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <span class="absolute text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2  sm:text-3xl dark:text-gray-800">First Slide</span>
+            
             <img src="/images/1.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 " alt="...">
         </div>
         <!-- Item 2 -->
@@ -50,3 +50,17 @@
       
     </main>
 </template>
+<script>
+export default {
+  head: {
+    title: 'Bưu Điện Huyện Mê Linh - Hà Nội',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Khu trung tâm hành chính huyện Xã Đại Thịnh, Huyện Mê Linh, Thành phố Hà Nội. Cung cấp dịch vụ bưu chính chuyển phát, đại lý bảo hiểm, ngân hàng và phân phối hàng tiêu dùng.'
+      }
+    ],
+  }
+}
+</script>

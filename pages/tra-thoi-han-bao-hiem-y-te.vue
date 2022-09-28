@@ -20,4 +20,17 @@
       <TraCuuTheBHYT />
     </main>
 </template>
-
+<script>
+export default {
+  head: {
+    title: 'Tra cứu thẻ BHYT - Bưu Điện Huyện Mê Linh',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Nhập mã số thẻ Bảo hiểm y tế (BHYT) hoặc mã số bảo hiểm xã hội (BHXH) để kiểm tra thẻ BHYT hết hạn và gia hạn online.'
+      }
+    ],
+  }
+}
+</script>

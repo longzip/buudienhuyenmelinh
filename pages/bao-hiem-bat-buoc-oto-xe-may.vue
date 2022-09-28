@@ -8,3 +8,17 @@
       <GuiYeuCau />
     </main>
 </template>
+<script>
+export default {
+  head: {
+    title: 'Mua bảo hiểm xe máy - ô tô ở Bưu điện huyện Mê Linh',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Đại lý bảo hiểm PTI - Tiết kiệm lên đến 20% khi mua bảo hiểm ô tô, xe máy. Hãy đến điểm bưu điện gần nhất để được hỗ trợ.'
+      }
+    ],
+  }
+}
+</script>

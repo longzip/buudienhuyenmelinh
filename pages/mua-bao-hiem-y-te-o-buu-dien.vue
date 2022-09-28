@@ -8,3 +8,17 @@
       <GuiYeuCau />
     </main>
 </template>
+<script>
+export default {
+  head: {
+    title: 'Mua bảo hiểm y tế ở Bưu điện huyện Mê Linh',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Tham gia bảo hiểm y tế (BHYT) hộ gia đình được giảm trừ mức đóng từ người thứ 2 trở đi. Hãy đến các điểm bưu điện gần nhất để được tư vấn và hỗ trợ tham gia.'
+      }
+    ],
+  }
+}
+</script>
