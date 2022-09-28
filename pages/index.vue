@@ -56,7 +56,36 @@ export default {
         hid: 'description',
         name: 'description',
         content: 'Khu trung tâm hành chính huyện Xã Đại Thịnh, Huyện Mê Linh, Thành phố Hà Nội. Cung cấp dịch vụ bưu chính chuyển phát, đại lý bảo hiểm, ngân hàng và phân phối hàng tiêu dùng.'
-      }
+      },
+      {
+            hid: 'og:title',
+            property: 'og:title',
+            content: 'Bưu Điện Huyện Mê Linh - Hà Nội'
+          },
+          {
+            hid: 'og:description',
+            property: 'og:description',
+            content: 'Khu trung tâm hành chính huyện Xã Đại Thịnh, Huyện Mê Linh, Thành phố Hà Nội. Cung cấp dịch vụ bưu chính chuyển phát, đại lý bảo hiểm, ngân hàng và phân phối hàng tiêu dùng.'
+          },
+          {
+            hid: 'og:type',
+            property: 'og:type',
+            content: 'website',
+          },
+          {
+            hid: 'og:image',
+            property: 'og:image',
+            content: 'https://www.buudienhuyenmelinh.vn/images/buu-dien-huyen-me-linh.png'
+          },
+          {
+            hid: 'og:url',
+            property: 'og:url',
+            content: 'https://www.buudienhuyenmelinh.vn/'
+          },
+          {
+            property: 'og:locale',
+            content: 'vi_VN'
+          }
     ],
   }
 }
