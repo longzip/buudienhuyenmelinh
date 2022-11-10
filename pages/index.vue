@@ -7,7 +7,7 @@
     <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <nuxt-img format="webp" loading="lazy" src="/images/lich2022.jpg" class="invisible md:visible absolute block w-full -translate-x-1/2 -translate-y-1/2 " alt="Bưu điện huyện mê linh 1" />
-            <nuxt-img format="webp" loading="lazy" src="/images/lich2022.jpg" class="visible md:invisible absolute block w-full -translate-x-1/2 -translate-y-1/2 " alt="Bưu điện huyện mê linh 2" />
+            
         </div>
         <!-- Item 1 
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
