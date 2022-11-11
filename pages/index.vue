@@ -5,7 +5,7 @@
       <div
         class="relative h-48 md:h-96 overflow-hidden rounded-lg xl:min-h-screen"
       >
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+        <div class="hidden duration-700 ease-in-out" data-carousel-item style="left: 80px">
           <nuxt-img
             format="webp"
             loading="lazy"
