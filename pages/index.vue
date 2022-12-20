@@ -14,8 +14,8 @@
             alt="Bưu điện huyện mê linh 1"
           />
           <span
-            class="invisible xl:visible absolute block w-full text-center uppercase text-3xl left-5 text-red-600"
-            >Có hàng tại BĐ Huyện Mê Linh và các điểm văn hóa xã</span
+            --class="invisible xl:visible absolute block w-full text-center uppercase text-3xl left-5 text-red-600"
+            -->Có hàng tại BĐ Huyện Mê Linh và các điểm văn hóa xã</span
           >
         </div>
         <!-- Item 1  -->
